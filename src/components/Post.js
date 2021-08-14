@@ -48,7 +48,6 @@ export default function Post() {
                 {postData.title}
               </h2>
               <div className="flex justify-center text-gray-800">
-                {postData.authorImage&&<img src={urlFor(postData.authorImage).url()} className="w-10 h-10 rounded-full" />}
                 <h4 className="cursive flex items-center pl-2 text-2xl">
                   {postData.name}
                 </h4>
